@@ -1,0 +1,129 @@
+#header {
+  background-color:rgb(60, 60, 60);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 111;
+
+}
+
+.navbar-brand{
+  color: white !important;
+}
+.navbar-brand:hover{
+  transform: scale(1.3);
+  transition: all 0.5s ease;
+
+}
+.container {
+  max-width: 1020px;
+}
+.cart {
+  color: #0d6efd;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.content .main {
+  padding-top: 130px;
+}
+
+.content .main .item {
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  background-color: rgb(60, 60, 60);
+
+}
+
+.content .main .item img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: rgb(60, 60, 60);
+
+}
+
+.content .main .item p{
+  margin-bottom: 5px;
+  color: white;
+}
+
+.content .main .item h4{
+  color: #0d6efd;
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+.content .main .item h5{
+  color: white;
+
+}
+
+.content .main .item .btn{
+  margin-bottom: 20px;
+}
+
+.btn-cart{
+  margin-left: 30px;
+}
+/* button giỏ hàng */
+#gioHang{
+  margin-left: 20px;
+}
+
+/* button xóa giỏ hàng */
+.btn-xoa{
+  text-align: right;
+}
+
+
+/* quantity */
+.quantity{
+  margin-bottom: 0;
+  font-size: 18px;
+  padding-left: 10px;
+}
+/* modal giỏ hàng */
+.offcanvas.offcanvas-end{
+  width: auto !important;
+}
+
+/* button add */
+.btn-primary{
+transition: all 0.8s ease;
+
+}
+.btn-primary:hover{
+background-color: rgb(251, 147, 68);
+color: black;
+transition: all 0.5s ease;
+transform: scale(1.1);
+}
+
+
+/* col item */
+.content .main .col{
+ margin-bottom: 50px;
+ transition: all 1s ease;
+}
+
+.content .main .col:hover{
+  transform: scale(1.1);
+  transition: all 0.8s ease;
+
+}
+
+/* text item */
+.content .main .item p{
+  display: none;
+
+}
+.content .main .item:hover p{
+  display: block;
+
+}
+
+.col-tongtien{
+  padding-left: 70px;
+}
